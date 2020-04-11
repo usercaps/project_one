@@ -118,7 +118,11 @@ header{
     transition: 0.5s ease-in-out;
     background-color: #ffffff;
 }
-
+.subtitle {
+    color: #dbdddf;
+    font-size: 18px;
+    margin-top: 25px;
+}
 .container2 .btn:hover{
     box-shadow: 0 0 15px 20px #bcdaee;
     transition: 0.5s ease-in-out;
@@ -185,20 +189,41 @@ header{
     position: relative;
 
 }
-/* .text3 h2{
+.john-doe{
+    width: 720px;
+    height: 562px;
+    float: left;  
+    margin-left: 274px;
+}
+.text3 h2{
     position: absolute;
-    left: 265px;
-    bottom: 332px;
-    width: 461px;
-    height: 36;
-   
+    right: 392px;
+    top: 216px;
+    color: #fe3254;
+    font-size: 40px;
 }
 .text3 p{
     line-height: 36px;
-     position: absolute;
-     left: 265px;
-     bottom: 270px;
-     color: #bbc0c6;
-     width: 458px;
-     height: 15px;
- } */
+    position: absolute;
+    right: 392px;
+    top: 270px;
+    color: #bbc0c6;
+    font-size: 15px;
+ }
+ .john p{
+    position: absolute;
+    right: 772px;
+    top: 365px;
+    margin-top: 84px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+ }
+ .john h3{
+    position: absolute;
+    right: 718px;
+    top: 390px;
+    margin-top: 95px;
+    color: #d7dade;
+    font-size: 14px;
+ }
