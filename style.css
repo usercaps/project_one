@@ -132,67 +132,68 @@ header{
 
 
 /* lesson 3 start */
-.third{
+.container4{
+    background-color: #f7f8fb;
+    color: #bbc0c6;
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+.container4 .saw{
+    height: 560px;
     width: 100%;
-    height: 1130px;
-    margin-top: 130px; 
+    position: relative;
+}
+
+.container4 .images{
+    height: inherit;
+    width: 50%;
     background-position-x: 50%;
+    text-align: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+}
+
+.container4 .image1{
+    background-image: url(./images/Photo1.png);
+}
+
+.container4 .text{
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+}
+
+.container4 .block1{
+    top: 34%;
+    left: 56.25%;
+}
+
+.container4 .text h3{
+    color: #000000;
+    font-size: 48px;
+    margin-bottom: 35px;
+    line-height: 1;
+}
+
+.container4 .image2{
+    background-image: url(./images/Photo2.png);
+    right: 0;
+}
+
+.container4 .block2{
+    top: 34%;
+    left: 11%;
+}
+.container6 {
+    height: 627px;
+    background-image: url(./images/john.png);
+    background-repeat: no-repeat;
+    background-position-x: 40%;
     background-color: #f7f8fb;
     position: relative;
-
-}
-
-.first-pic{
-    width: 997px;
-    height: 562px;
-    float: left;  
-}
-
-/* align="left" */
-.second-pic{
-    width: 1004px;
-    height: 562px;
-    float: right;
-}
-
-/* align="right */
-.text1 h2{
-    position: absolute;
-    left: 1115px;
-    top: 196px;
-}
-
-.text1 p{
-   line-height: 36px;
-    position: absolute;
-    left: 1115px;
-    top: 284px;
-    color: #bbc0c6;
-}
-
-.text2 h2{
-    position: absolute;
-    left: 265px;
-    bottom: 332px;
-    width: 461px;
-    height: 36;
-}
-
-.text2 p{
-   line-height: 36px;
-    position: absolute;
-    left: 265px;
-    bottom: 270px;
-    color: #bbc0c6;
-    width: 458px;
-    height: 15px;
-}
-
-.container6{
-    height: 630px;
-    background-image: url(./images/Photo.png);
-    position: relative;
-    background-position-x: 35%;
+    font-size: 16px;
 }
 .john-doe{
     position: absolute;
