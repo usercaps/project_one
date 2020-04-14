@@ -101,6 +101,8 @@ header{
 
 .container2 h2{
     padding-top: 115px;
+    width: 90%;
+    margin: 0 auto;
     /**/
 }
 
@@ -118,11 +120,7 @@ header{
     transition: 0.5s ease-in-out;
     background-color: #ffffff;
 }
-.subtitle {
-    color: #dbdddf;
-    font-size: 18px;
-    margin-top: 25px;
-}
+
 .container2 .btn:hover{
     box-shadow: 0 0 15px 20px #bcdaee;
     transition: 0.5s ease-in-out;
@@ -132,8 +130,10 @@ header{
     box-shadow: 0 0 15px 20px #93bcd8;
 }
 
+
+/* lesson 3 start */
 .third{
-    width: 2000px   ;
+    width: 100%;
     height: 1130px;
     margin-top: 130px; 
     background-position-x: 50%;
@@ -141,21 +141,27 @@ header{
     position: relative;
 
 }
+
 .first-pic{
     width: 997px;
     height: 562px;
     float: left;  
 }
+
+/* align="left" */
 .second-pic{
     width: 1004px;
     height: 562px;
     float: right;
 }
+
+/* align="right */
 .text1 h2{
     position: absolute;
     left: 1115px;
     top: 196px;
 }
+
 .text1 p{
    line-height: 36px;
     position: absolute;
@@ -163,6 +169,7 @@ header{
     top: 284px;
     color: #bbc0c6;
 }
+
 .text2 h2{
     position: absolute;
     left: 265px;
@@ -170,6 +177,7 @@ header{
     width: 461px;
     height: 36;
 }
+
 .text2 p{
    line-height: 36px;
     position: absolute;
@@ -180,50 +188,204 @@ header{
     height: 15px;
 }
 
-.fourth{
-    width: 2000px   ;
-    height: 663px;
-    margin-top: 130px; 
-    background-position-x: 50%;
-    background-color: #f7f8fb;
+.container6{
+    height: 630px;
+    background-image: url(./images/Photo.png);
     position: relative;
-
+    background-position-x: 35%;
 }
 .john-doe{
-    width: 720px;
-    height: 562px;
-    float: left;  
-    margin-left: 274px;
-}
-.text3 h2{
     position: absolute;
-    right: 392px;
-    top: 216px;
+    right: 80px;
+}
+.john-doe h2{
+    margin-top: 188px;
+    margin-bottom: 55px;
+    font-size: 48px;
     color: #fe3254;
-    font-size: 40px;
+    font-weight: 600;
 }
-.text3 p{
-    line-height: 36px;
-    position: absolute;
-    right: 392px;
-    top: 270px;
-    color: #bbc0c6;
-    font-size: 15px;
- }
- .john p{
-    position: absolute;
-    right: 772px;
-    top: 365px;
-    margin-top: 84px;
-    font-size: 15px;
-    color: black;
-    font-weight: bold;
- }
- .john h3{
-    position: absolute;
-    right: 718px;
-    top: 390px;
-    margin-top: 95px;
-    color: #d7dade;
+.john-doe p{
+    font-size: 13px;
+    color: #d2d5d8;
+    line-height: 25px;
+}
+.john-doe h4{
+    margin-top: 88px;
+}
+ footer {
+    padding-bottom: 1200px;
+    background-image: url(../images/footer.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+}
+
+.container7{
+    height: 420px;
+    text-align: center;
+}
+.container7 p{
+    font-size: 13px;
+    margin-top: 135px;
+    color: #d2d5d8;
+}
+.container7 h2{
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.container7 .btn{
+    text-decoration: none;
+    color: #43a9ff;
     font-size: 14px;
- }
+    font-weight: bold;
+    box-shadow: 0 0 15px 20px #f4f7fa;
+    margin-top: 60px;
+    display: inline-block;
+    padding: 21px 42px;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+}
+.container7 .btn:hover{
+    box-shadow: 0 0 15px 20px #bcdaee;
+    transition: 0.5s ease-in-out;
+}
+
+/* lesson 4 */
+.cards .item{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 0 2.3%;
+}
+
+.cards .item h3{
+    font-size: 16px;
+}
+
+.container5{
+    background-image: url('./images/snowflake.png');
+    background-repeat: no-repeat;
+    background-position-x: 3%;
+    background-position-y: -27%;
+    background-size: 30%;
+}
+
+.application{
+    position: relative;
+}
+
+.application .app, .application .content_right{
+    display: inline-block;
+    width: 50%;
+}
+
+.application .app img{
+    max-width: 65%;
+}
+
+.application .content_right{
+    position: absolute;
+    right: 0;
+}
+
+.application .content_right h2{
+    padding-top: 200px;
+}
+
+@media(max-width: 1024px){
+    .cards .item{
+        width: 45%;
+    }
+    .application .app img{
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    .logo{
+        width: 206px;
+        height: 206px;
+        top: -103px;
+        left: calc(50% - 103px);
+    }
+    .logo .name{
+        margin-top: 115px;
+        font-size: 36px;
+    }
+    .logo .desc{
+        font-size: 12px;
+    }
+    .burger{
+        margin-top: 30px;
+    }
+    header{
+        height: 100px;
+    }
+}
+
+@media(max-width: 600px){
+    .cards .item{
+        margin: 0;
+        width: 100%;
+    }
+    .application .app, .application .content_right{
+        width: 100%;
+        text-align: center;
+    }
+    .application .content_right{
+        position: static;
+    }
+    .application .content_right h2{
+        padding-top: 0;
+        padding-bottom: 40px;
+    }
+    .container5{
+        background-position-y: -5%;
+    }
+    .burger{
+        width: 40px;
+        height: 40px;
+    }
+    .burger .line:first-child{
+        margin-top:12px;
+    }
+    .search{
+        line-height: 40px;
+    }
+    .container2{
+        background-size: cover;
+        height: 100vh;
+        min-height: 568px;
+    }
+}
+
+@media(max-width: 425px){
+    .application .app{
+        overflow: hidden;
+    }
+    .application .app img{
+        max-width: 122%;
+        margin-left: -11%;
+    }
+    .logo {
+        width: 150px;
+        height: 150px;
+        top: -75px;
+        left: calc(50% - 75px);
+    }
+    .logo .name {
+        margin-top: 80px;
+        font-size: 30px;
+    }
+    .logo .desc {
+        font-size: 10px;
+    }
+    .burger {
+        margin-top: 15px;
+    }
+}
+
+
