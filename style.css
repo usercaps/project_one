@@ -283,6 +283,7 @@ header{
     line-height: 36px;
     margin-top: 46px;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .cards .btn{
@@ -307,34 +308,75 @@ header{
 
 
 .container5{
-    background-image: url('./images/snowflake.png');
+    background-image: url(./images/Snowflake.png);
     background-repeat: no-repeat;
     background-position-x: 3%;
     background-position-y: -27%;
-    background-size: 30%;
+    background-size: 25%;
 }
-
 .application{
     position: relative;
 }
-
-.application .app, .application .content_right{
+.application .app, .application .content-right{
     display: inline-block;
     width: 50%;
 }
-
 .application .app img{
     max-width: 65%;
+    margin-left: 26px;
 }
-
-.application .content_right{
+.application .content-right{
     position: absolute;
     right: 0;
 }
-
-.application .content_right h2{
-    padding-top: 200px;
+.application .content-right h2{
+    margin-top: 205px;
+    margin-bottom: 55px;
+    font-size: 48px;
+    color: #43a9ff;
+    font-weight: 600;
 }
+.application .content-right p{
+    font-size: 13px;
+    color: #d2d5d8;
+    line-height: 25px;
+}
+.container5-2{
+    background-image: url('./images/Snowflake.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 200%;
+    background-size: 23%;
+}
+.second-application{
+    text-align: right;
+}
+.second-application .second-screen, .second-application .content-left{
+    display: inline-block;
+    width: 50%;
+}
+.second-application .second-screen img{
+    max-width: 65%;
+    margin-left: 217px;
+}
+.second-application .content-left{
+    position: absolute;
+    left: 28%;
+    text-align: left;
+}
+.second-application .content-left h2{
+    margin-top: 205px;
+    margin-bottom: 55px;
+    font-size: 48px;
+    color: #43a9ff;
+    font-weight: 600;
+}
+.second-application .content-left p{
+    font-size: 13px;
+    color: #d2d5d8;
+    line-height: 25px;
+}
+
 
 @media(max-width: 1024px){
     .cards .item{
