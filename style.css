@@ -217,7 +217,7 @@ header{
 }
  footer {
     padding-bottom: 1200px;
-    background-image: url(../images/footer.png);
+    background-image: url(./images/footer.png);
     background-position: bottom center;
     background-repeat: no-repeat;
     padding-top: 0px;
