@@ -74,12 +74,12 @@ header{
     margin-top: calc(206px + 57px);
     font-size: 48px;
     color: #43a9ff;
-    font-weight: 600;
+    font-weight: normal;
 }
 
 .logo .desc{
     font-size: 18px;
-    font-weight: bold;
+    font-weight: normal;
     color: #e6e7e9;
     text-transform: uppercase;
 }
@@ -111,7 +111,7 @@ header{
     text-decoration: none;
     color: #43a9ff;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     text-transform: uppercase;
     box-shadow: 0 0 15px 20px #f5f8fa;
     margin-top: 138px;
@@ -131,131 +131,6 @@ header{
     box-shadow: 0 0 15px 20px #93bcd8;
 }
 
-
-/* lesson 3 start */
-.container4{
-    background-color: #f7f8fb;
-    color: #bbc0c6;
-    font-size: 16px;
-    line-height: 2.2;
-}
-
-.container4 .pic{
-    height: 560px;
-    width: 100%;
-    position: relative;
-}
-
-.container4 .images{
-    height: inherit;
-    width: 50%;
-    background-position-x: 50%;
-    text-align: center;
-    background-repeat: no-repeat;
-    display: inline-block;
-    position: absolute;
-}
-
-.container4 .image1{
-    background-image: url(./images/Photo1.png);
-}
-
-.container4 .text{
-    position: absolute;
-    display: inline-block;
-    width: 500px;
-}
-
-.container4 .block1{
-    top: 34%;
-    left: 56.25%;
-}
-
-.container4 .text h3{
-    color: #000000;
-    font-size: 48px;
-    margin-bottom: 35px;
-    line-height: 1;
-}
-
-.container4 .image2{
-    background-image: url(./images/Photo2.png);
-    right: 0;
-}
-
-.container4 .block2{
-    top: 34%;
-    left: 11%;
-}
-.container6 {
-    height: 627px;
-    background-image: url(./images/john.png);
-    background-repeat: no-repeat;
-    background-position-x: 40%;
-    background-color: #f7f8fb;
-    position: relative;
-    font-size: 16px;
-}
-.john-doe{
-    position: absolute;
-    right: 80px;
-}
-.john-doe h2{
-    margin-top: 188px;
-    margin-bottom: 55px;
-    font-size: 48px;
-    color: #fe3254;
-    font-weight: 600;
-}
-.john-doe p{
-    font-size: 13px;
-    color: #d2d5d8;
-    line-height: 25px;
-}
-.john-doe h4{
-    margin-top: 88px;
-}
- footer {
-    padding-bottom: 1200px;
-    background-image: url(./images/footer.png);
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    padding-top: 0px;
-}
-
-.container7{
-    height: 420px;
-    text-align: center;
-}
-.container7 p{
-    font-size: 13px;
-    margin-top: 135px;
-    color: #d2d5d8;
-}
-.container7 h2{
-    margin-top: 20px;
-    font-size: 48px;
-    font-weight: 600;
-}
-.container7 .btn{
-    text-decoration: none;
-    color: #43a9ff;
-    font-size: 14px;
-    font-weight: bold;
-    box-shadow: 0 0 15px 20px #f4f7fa;
-    margin-top: 60px;
-    display: inline-block;
-    padding: 21px 42px;
-    border-radius: 30px;
-    transition: 0.5s ease-in-out;
-    background-color: #fff;
-}
-.container7 .btn:hover{
-    box-shadow: 0 0 15px 20px #bcdaee;
-    transition: 0.5s ease-in-out;
-}
-
-/* lesson 4 and homeword start */
 .cards .item{
     display: inline-block;
     width: 20%;
@@ -268,15 +143,18 @@ header{
 .cards .item h3{
     font-size: 16px;
 }
+
 .container3 h2{
     width: 90%;
     margin: 0 auto;
     text-align: center;
     /**/
 }
+
 .container3{
     text-align: center;
 }
+
 .about-paragraph {
     color: #cacdd1;
     font-size: 16px;
@@ -290,7 +168,7 @@ header{
     text-decoration: none;
     color: #43a9ff;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: normal;
     box-shadow: 0 0 15px 20px #f4f7fa;
     margin-top: 100px;
     /* margin: 0 auto; */
@@ -301,89 +179,315 @@ header{
     transition: 0.5s ease-in-out;
     background-color: #fff;
 }
+
 .cards .btn:hover{
     box-shadow: 0 0 15px 20px #bcdaee;
     transition: 0.5s ease-in-out;
 }
 
+.container4-1{
+    background-color: #f7f8fb;
+}
+
+.container4-1 .row{
+    position: relative;
+}
+
+.container4-1 .images, .container4-1 .text{
+    width: 50%;
+    font-size: 16px;
+    color: #bbc0c6;
+    line-height: 2.1;
+}
+
+.container4-1 h3{
+    color: #000000;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 6%;
+}
+
+.container4-1 img{
+    width: 100%;
+    display: inherit;
+}
+
+.container4-1 .text1{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container4-1 .text2{
+    position: absolute;
+    top: 0;
+}
+
+.container4-1 .block1, .container4-1 .block2{
+    width: 55%;
+    margin-top: 17%;
+    margin-left: 15%;
+}
+
+.container4-1 .block2{
+    margin-left: 24%;
+}
+
+.container4-1 .img2{
+    margin-left: 50%;
+}
 
 .container5{
     background-image: url(./images/Snowflake.png);
     background-repeat: no-repeat;
     background-position-x: 3%;
-    background-position-y: -27%;
-    background-size: 25%;
+    background-position-y: -46%;
+    background-size: 33%;
 }
-.application{
+
+.container5 .application{
     position: relative;
+    padding-top: 8%;
 }
-.application .app, .application .content-right{
-    display: inline-block;
+
+.application{
+    font-size: 16px;
+    color: #c0c5c9;
+    line-height: 2.1;
+}
+
+.application h2{
+    font-size: 48px;
+    color: #43a9ff;
+    margin-top: 35%;
+}
+
+.application .app, .application .content_right, .application .content_left{
     width: 50%;
+    display: inline-block;
 }
+
+.container5 .application .app{
+    margin-left: 8%;
+}
+
 .application .app img{
     max-width: 65%;
-    margin-left: 26px;
 }
-.application .content-right{
+
+.container5 .application .content_right{
     position: absolute;
     right: 0;
 }
-.application .content-right h2{
-    margin-top: 205px;
-    margin-bottom: 55px;
-    font-size: 48px;
-    color: #43a9ff;
-    font-weight: 600;
+
+.application .text{
+    width: 74%;
 }
-.application .content-right p{
-    font-size: 13px;
-    color: #d2d5d8;
-    line-height: 25px;
+
+.container5 .application .text{
+    padding-left: 11%;
 }
-.container5-2{
-    background-image: url('./images/Snowflake.png');
+.container6{
+    background-image: url(./images/Snowflake.png);
     background-repeat: no-repeat;
-    background-position-x: 100%;
-    background-position-y: 200%;
-    background-size: 23%;
+    background-position: right;
+    background-position-y: 193%;
+    background-size: 33%;
 }
-.second-application{
-    text-align: right;
+
+.container6 .application{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 8%;
 }
-.second-application .second-screen, .second-application .content-left{
-    display: inline-block;
-    width: 50%;
+
+.container6 .application .app{
+    margin-left: 50%;
 }
-.second-application .second-screen img{
-    max-width: 65%;
-    margin-left: 217px;
+
+.container6 .application .app img{
+    padding-left: 20%;
 }
-.second-application .content-left{
+
+.container6 .application .content_left{
+    margin-left: 11%;
     position: absolute;
-    left: 28%;
-    text-align: left;
+    top: 13%;
 }
-.second-application .content-left h2{
-    margin-top: 205px;
-    margin-bottom: 55px;
+.container7 {
+    height: 627px;
+    background-image: url(./images/john.png);
+    background-repeat: no-repeat;
+    background-position-x: -8%;
+    background-color: #f7f8fb;
+    position: relative;
+    font-size: 16px;
+}
+
+.container7 .text{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    font-size: 13px;
+}
+
+.container7 p{
+    line-height: 2.2;
+    color: #bbc0c6;
+    width: 61%;
+}
+
+.container7 h3{
     font-size: 48px;
+    color: #fe3254;
+    margin-bottom: 30px;
+    width: 80%
+}
+
+.container7 span{
+    display: block;
+}
+
+.container7 .name{
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.container7 .site{
+    font-weight: 600;
+    margin-top: 12px;
+    color: #ccd0d5;
+}
+
+.container8 {
+    background-image: url(./images/footer.png);
+    height: 1528px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    text-align: center;
+}
+
+.container8 p{
+    padding-top: 8%;
+    color: #d2d5d8;
+    font-size: 18px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container8 h3{
+    margin-top: 0.75%;
+    font-size: 48px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.container8 .btn{
+    margin-top: 5%;
+}
+.container8 .btn{
+    text-decoration: none;
     color: #43a9ff;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px 20px #f5f8fa;
+    margin-top: 138px;
+    display: inline-block;
+    padding: 21px 42px;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    background-color: #ffffff;
+}
+
+.container8 .btn:hover{
+    box-shadow: 0 0 15px 20px #bcdaee;
+    transition: 0.5s ease-in-out;
+}
+
+.container8 .btn:focus{
+    box-shadow: 0 0 15px 20px #93bcd8;
+}
+
+h2, h3{
     font-weight: 600;
 }
-.second-application .content-left p{
-    font-size: 13px;
-    color: #d2d5d8;
-    line-height: 25px;
-}
+
 
 
 @media(max-width: 1024px){
-    .cards .item{
-        width: 45%;
+    .container3 .cards .item{
+        width: 41%;
+        margin-bottom: 6%;
+    }
+
+    .cards .item h3 {
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+
+    .container3 .btn {
+        margin-top: 4%;
     }
     .application .app img{
         max-width: 100%;
+    }
+    .container4-1 .images, .container4-1 .text{
+        width: 100%;
+    }
+
+    .container4-1 .text1 {
+        position: static;
+    }
+
+    .container4-1 .text2 {
+        position: static;
+    }
+
+    .container4-1 .block1, .container4-1 .block2 {
+        padding-bottom: 9%;
+    }
+
+    .container4-1 .img2 {
+        margin-left: 0;
+    }
+    .container5 {
+        background-size: 45%;
+    }
+    .container5 .application .app {
+        margin-left: 3%;
+    }
+    .container5-2 {
+        background-size: 45%;
+    }
+    .container5-2 .application .app img {
+        padding-left: 4%;
+    }
+    .application .app img{
+        max-width: 100%;
+    }
+    
+    .container7 {
+        background-position-x: 34%
+    }
+
+    .container7 h3 {
+        width: 90%;
+    }
+
+    .container7 p {
+        width: 90%;
+    }
+
+    .container8 h3 {
+        margin-top: 3%;
+    }
+
+    .container8 .btn-footer {
+        margin-top: 10%;
     }
 }
 
@@ -393,66 +497,186 @@ header{
         height: 206px;
         top: -103px;
         left: calc(50% - 103px);
+        box-shadow: 0 0 27px 30px #f5f8fa;
     }
+
     .logo .name{
-        margin-top: 115px;
+        margin-top: 116px;
         font-size: 36px;
     }
+
     .logo .desc{
         font-size: 12px;
     }
+
     .burger{
         margin-top: 30px;
+        box-shadow: 0 0 10px 15px #f5f8fa;
     }
+
     header{
         height: 100px;
+    }
+
+    .container2 p{
+        width: 90%;
+        display: block;
+        margin-left: 5%;
+    }
+
+    .container5 .application .app {
+        margin-left: 0;
+    }
+
+    .container6 .application .app img {
+        padding-left: 0;
+    }
+
+    .container6 .application .content_left {
+        margin-left: 5%;
+    }
+
+    .application h2 {
+        font-size: 41px;
+        padding-bottom: 5%;
+        margin-top: 10%;
+    }
+
+    .container6 .application .content_left {
+        top: 6%;
+    }
+
+    .container7 h3 {
+        font-size: 44px;
+    }
+
+    .container7 .text {
+        top: 15%;
+    }
+
+    .container8{
+        background-size: cover;
+        height: 100vh;
+        min-height: 800px;
+    }
+
+    .container8 p {
+        padding-top: 7%;
+    }
+
+    .container8 .btn-footer {
+        margin-top: 20%;
     }
 }
 
 @media(max-width: 600px){
-    .cards .item{
-        margin: 0;
-        width: 100%;
+    .container3 h2 {
+        margin-top: 5%;
+        margin-bottom: 8%;
     }
+
+    .container3 .cards .item{
+        margin: 0;
+        width: 60%;
+        margin-bottom: 10%;
+    }
+
+    .container3 .btn {
+        margin-top: 10%;
+        margin-bottom: 14%;
+    }
+
     .application .app, .application .content_right{
         width: 100%;
         text-align: center;
+        display: block;
     }
-    .application .content_right{
+
+    .container5 .application .content_right{
         position: static;
     }
+
     .application .content_right h2{
         padding-top: 0;
         padding-bottom: 40px;
     }
+
+    .container5 .application .text {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .application .text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container6 .application .content_left {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-left: 0;
+        margin: 0 auto;
+        top: 65%;
+    }
+    
+
+    .container6 .application .app {
+        margin-left: 0;
+        padding-bottom: 60%;
+    }
+
     .container5{
         background-position-y: -5%;
+        background-size: 60%;
     }
+
     .burger{
         width: 40px;
         height: 40px;
     }
+
     .burger .line:first-child{
-        margin-top:12px;
+        margin-top: 12px;
     }
+
     .search{
         line-height: 40px;
     }
+
     .container2{
         background-size: cover;
         height: 100vh;
         min-height: 568px;
+        background-position-x: 54%;
+    }
+
+    .container7 {
+        background-size: 1870px;
+        background-position: bottom;
+        background-position-x: 35%;
+    }
+
+    .container7 h3 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .container7 p {
+        line-height: 1.7;
     }
 }
 
-@media(max-width: 425px){
+@media(max-width:426px){
     .application .app{
         overflow: hidden;
     }
+
     .application .app img{
         max-width: 122%;
         margin-left: -11%;
     }
+
     .logo {
         width: 150px;
         height: 150px;
@@ -469,6 +693,61 @@ header{
     .burger {
         margin-top: 15px;
     }
+
+    .btn {
+        margin-top: 49px;
+    }
+
+    .container2 {
+        background-position: bottom;
+        background-position-x: 54%;
+        height: 865px;
+    }
+
+    .container2 h2 {
+        padding-top: 40px;
+        font-size: 42px;
+        margin-bottom: 4.2%;
+    }
+
+    .container3 h2 {
+        font-size: 44px;
+    }
+
+    .container6 .application .app {
+        padding-bottom: 100%;
+    }
+
+    .application h2 {
+        margin-top: 0%;
+    }
+
+    .container7 {
+        background-size: 1180px;
+        background-position: bottom;
+        background-position-x: 35%;
+        /* background-image: none; */
+    }
+
+    .container7 h3 {
+        width: 90%;
+        font-size: 40px;
+    }
+
+    .container7 .text {
+        top: 10%;
+        left: 9%;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .container7 p {
+        color: #969ba1;
+    }
+
+    .container8 h3 {
+        margin-top: 5%;
+        font-size: 42px;
+    }
 }
-
-
